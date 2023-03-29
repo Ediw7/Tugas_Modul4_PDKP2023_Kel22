@@ -18,7 +18,7 @@ def tambah_buku():
     tahun_terbit = input("Masukkan tahun terbit: ")
     buku_baru = Buku(judul, penulis, tahun_terbit)
     list_buku.append(buku_baru)
-    print("Buku berhasil ditambahkan.")
+    print("Buku berhasil ditambahkan")
     return buku_baru
 
 # Fungsi untuk menampilkan daftar buku
