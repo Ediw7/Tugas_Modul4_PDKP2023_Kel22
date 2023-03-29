@@ -6,14 +6,14 @@ while True:
     print("1. Tambah Buku")
     print("2. Tampilkan Daftar Buku")
     print("3. Keluar")
-    pilihan = input("Masukkan pilihan Anda: ")
+    pilihan = input("Masukkan Pilihan Anda : ")
     
     if pilihan == "1":
         tambah_buku()
     elif pilihan == "2":
         tampilkan_daftar_buku()
     elif pilihan == "3":
-        print("Terima kasih telah menggunakan program ini.")
+        print("Terima kasih telah menggunakan program ini")
         break
     else:
-        print("Pilihan tidak valid.")
+        print("Pilihan tidak valid")
