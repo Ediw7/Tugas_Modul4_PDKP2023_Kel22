@@ -11,7 +11,7 @@ class Buku:
         print("Penulis\t\t:", self.penulis)
         print("Tahun Terbit\t:", self.tahun_terbit)
 
-#Fungsi untuk menambahkan buku ke dalam list buku
+# Fungsi untuk menambahkan buku ke dalam list buku
 def tambah_buku():
     judul = input("Masukkan judul buku: ")
     penulis = input("Masukkan nama penulis: ")
@@ -21,7 +21,7 @@ def tambah_buku():
     print("Buku berhasil ditambahkan.")
     return buku_baru
 
-#Fungsi untuk menampilkan daftar buku
+# Fungsi untuk menampilkan daftar buku
 def tampilkan_daftar_buku():
     if list_buku:
         print("Daftar Buku:")
