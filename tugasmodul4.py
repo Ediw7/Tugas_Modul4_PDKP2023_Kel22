@@ -13,9 +13,9 @@ class Buku:
 
 # Fungsi untuk menambahkan buku ke dalam list buku
 def tambah_buku():
-    judul = input("Masukkan judul buku: ")
-    penulis = input("Masukkan nama penulis: ")
-    tahun_terbit = input("Masukkan tahun terbit: ")
+    judul = input("Masukkan judul buku : ")
+    penulis = input("Masukkan nama penulis : ")
+    tahun_terbit = input("Masukkan tahun terbit : ")
     buku_baru = Buku(judul, penulis, tahun_terbit)
     list_buku.append(buku_baru)
     print("Buku berhasil ditambahkan")
@@ -24,7 +24,7 @@ def tambah_buku():
 # Fungsi untuk menampilkan daftar buku
 def tampilkan_daftar_buku():
     if list_buku:
-        print("Daftar Buku:")
+        print("Daftar Buku :")
         for buku in list_buku:
             buku.tampilkan_info()
             print("==============================")
